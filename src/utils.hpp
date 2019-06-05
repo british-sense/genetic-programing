@@ -4,11 +4,11 @@
 #include <iostream>
 #include <algorithm>
 
-#include "node.hpp"
+#include "tree.hpp"
 #include "individual.hpp"
 
-void OnePointCrossOver(Node* n1, Node* n2){
-    std::swap(n1, n2);
+void OnePointCrossOver(Individual &p1, Individual &p2, Individual &c1, Individual &c2){
+    // std::swap(n1, n2);
 }
 
 
